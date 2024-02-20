@@ -16,7 +16,7 @@ function createGalleryItem(array) {
     .join("");
 }
 
-const photosMarkp = createGalleryItem(galleryItems);
+const photosMarkup = createGalleryItem(galleryItems);
 galleryContainer.insertAdjacentHTML("beforeend", photosMarkup);
 
 const galleryHandler = new SimpleLightbox(".gallery a", { captionsData: "alt", captionDelay: 250 });
