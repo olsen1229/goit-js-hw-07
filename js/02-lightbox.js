@@ -9,7 +9,7 @@ function createGalleryItem(array) {
     return array.map(({ preview, original, description }) => {
         return `
             <a class="gallery_item" href="${original}">
-                <img class="gallery_image" src="${preview}" alt="${description}" />
+                <img class="gallery__image" src="${preview}" alt="${description}" />
             </a>
         `;
     })
